@@ -42,8 +42,26 @@ body {
     animation: loaderanime  2s 2s infinite;
 
 }
-/* .hr3 > :hover{
+.hr3 :hover{
     font-family: silkserif;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    text-decoration: none;
+}
+
+.videocontainer img{
+   position: absolute;
+   /* top: 0; */
+   height: 0%;
+   width: 50%;
+   object-fit: contain;
+}
+/* .videocontainer video{
+   position: absolute;
+   top: 0;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
 } */
 @keyframes loaderanime {
     0% {

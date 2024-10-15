@@ -22,7 +22,7 @@ function loadingAnimation() {
                 else {
                     h5timer.innerHTML = grow
                 }
-            }, 3)
+            }, 35)
         }
     }),
     tl.to(".line h2", {
@@ -44,7 +44,7 @@ function loadingAnimation() {
     })
 }
 
-// loadingAnimation()
+// loadingAnimation();
 document.addEventListener("mousemove",
     function (dets){
         gsap.to(".crsr",{
